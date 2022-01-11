@@ -1,0 +1,15 @@
+.productsLabel {
+  font-weight: bold;
+  margin: 2em;
+}
+.allCardsContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 480px) {
+  .profilePageContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+  }
+}

@@ -1,0 +1,37 @@
+.homeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./images/HomePageDelivery.png");
+  height: 30em;
+}
+.aldenteIconHome {
+  width: 17em;
+  height: 14em;
+  border-radius: 30px;
+}
+
+.searchBarHome {
+  border-bottom-left-radius: 0.5em;
+  border-start-start-radius: 0.5em;
+  border: none;
+  padding: 1em;
+  width: 40%;
+  height: 2.7em;
+  margin-top: 3em;
+}
+.searchButton {
+  background: #ffff;
+  margin-top: 3em;
+  height: 2.7em;
+  width: 2.3em;
+  padding: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-end-end-radius: 0.5em;
+}
+.searchDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

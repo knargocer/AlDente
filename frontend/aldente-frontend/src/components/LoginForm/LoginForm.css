@@ -1,0 +1,60 @@
+.loginFormContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  padding: 4em 4em 2em 4em;
+  position: relative;
+}
+.loginFormCol {
+  background-color: rgba(211, 211, 211, 0.673);
+  border-radius: 15px;
+  height: max-content;
+  padding: 3em;
+  justify-self: flex-end;
+  align-self: flex-end;
+  width: 50%;
+}
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: max-content;
+}
+.loginFormRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginButton {
+  background-color: #1f2041;
+  width: 50%;
+  height: 2em;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+}
+.formText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1em;
+}
+@media screen and (max-width: 480px) {
+  .loginFormContainer {
+    padding: 0em;
+    width: inherit;
+    display: flex;
+  }
+  .loginFormCol {
+    padding: 1em;
+    width: inherit;
+    justify-self: center;
+    align-self: center;
+  }
+}

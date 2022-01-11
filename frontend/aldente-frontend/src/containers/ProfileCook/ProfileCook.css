@@ -1,0 +1,40 @@
+.profileImage {
+  width: 10em;
+  height: 10em;
+  padding: 0;
+}
+.profileCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  padding: 0;
+  border: none;
+  margin: 5em 3em 20em 3em;
+}
+
+.editButton,
+.editButton:hover {
+  background-color: #4b3f72;
+  border: none;
+  width: 6em;
+}
+
+.profilePageContainer {
+  display: flex;
+  left: 0;
+  float: left;
+  min-width: 100%;
+}
+.profileActivity {
+  background-color: #ffc857;
+}
+.profileDetails {
+  flex: 2;
+}
+.profileLabel {
+  font-size: large;
+  font-weight: bolder;
+  color: #4b3f72;
+  margin: 1em;
+}

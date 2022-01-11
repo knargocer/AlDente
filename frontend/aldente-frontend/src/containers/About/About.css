@@ -1,0 +1,42 @@
+.missionLabel {
+  color: #4b3f72;
+  background-color: #ffc857;
+  border-radius: 1em;
+  padding: 0.7em;
+  font-size: large;
+  margin-bottom: 2em;
+}
+.aboutLabel {
+  color: #ffffff;
+  background-color: #119da4;
+  border-radius: 1em;
+  padding-top: 0.7em;
+  width: 10em;
+  height: 3em;
+  font-size: xx-large;
+  text-align: center;
+}
+.aboutLabelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.aboutImage {
+  width: 100%;
+  margin: 2em;
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 480px) {
+  .aboutContainer {
+    flex-direction: column;
+    padding: 2em;
+  }
+  .aboutImage {
+    margin: 0;
+  }
+}

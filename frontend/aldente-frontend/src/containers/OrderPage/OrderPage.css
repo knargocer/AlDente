@@ -1,0 +1,28 @@
+#longerButton {
+  width: fit-content;
+}
+#changedColorsButton {
+  background: #ffc857;
+  color: #4b3f72;
+  margin: 2em;
+}
+.successMessage {
+  margin-top: 0.5em;
+}
+.orderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  padding: 2em;
+  margin-top: 1.5em;
+  align-self: center;
+  box-shadow: 0 0 0.5em #b6b0b0;
+}
+.orderSuccessfullBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

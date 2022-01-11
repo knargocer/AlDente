@@ -1,0 +1,56 @@
+.typeDropdownDiv {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+.typeDropdownLabel {
+  font-size: medium;
+  color: #1f2041;
+  padding-left: 2em;
+}
+.typeDropdown {
+  color: #1f2041;
+}
+.form-check {
+  align-self: flex-start;
+  margin-left: 1em;
+}
+.typesDrop {
+  background: #ffff;
+  color: #1f2041;
+  border: none;
+  width: 50%;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.2em;
+}
+#ingredientEntry {
+  width: 50%;
+}
+.submitButtoningredient {
+  height: 2.5em;
+  width: 5em;
+  display: inline-block;
+}
+.ingredientNamesButton {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.3em;
+  margin: 0.3em;
+}
+.productTypesDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .typeDropdownLabel {
+    padding-left: 0;
+  }
+  .productFormContainer {
+    padding: 0.2em;
+  }
+  .ingredientFormGroup {
+    flex-direction: column;
+  }
+}

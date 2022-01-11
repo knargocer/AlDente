@@ -1,0 +1,81 @@
+.globalCard {
+  background: #119da4;
+  height: fit-content;
+  display: flex;
+  border-radius: 0.5em;
+  color: #ffff;
+  margin: 0.5em;
+  width: 15em;
+  min-width: 15em;
+  align-items: flex-start;
+}
+.headerCard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.globalCardBody {
+  width: inherit;
+}
+.avaliablityIcon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  color: #4b3f72;
+}
+
+.allProductCardsContainer {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  overflow: scroll;
+  width: 100%;
+}
+.globalCardTitle {
+  background: #ffc857;
+  color: #4b3f72;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  width: min-content;
+  font-weight: bolder;
+}
+.globalCardHeader {
+  font-weight: bold;
+  color: #4b3f72;
+  margin: 0em;
+}
+.ingredientNames {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  margin: 0;
+}
+
+.globalCardText {
+  margin: 0em 0.2em 0em 0em;
+}
+.globalCardEmphasis {
+  font-size: larger;
+  font-weight: bolder;
+  color: #ffc857;
+}
+.addToCartIcon {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #ffff;
+  margin: 0.3em 0.5em 0em 0em;
+  border-radius: 0.2em;
+  align-self: flex-end;
+}
+.addToCartIcon:hover {
+  cursor: pointer;
+}
+.globalWhiteHeader {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 0.7em;
+  padding: 0;
+}

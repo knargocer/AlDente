@@ -1,0 +1,65 @@
+.globalFormContainer {
+  background-color: #ffc857;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin: 0;
+  box-shadow: 0.3em 0.3em 0.3em #b6b0b0;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.bodyForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+}
+
+.form-control {
+  width: 100%;
+  overflow: hidden;
+  margin: 0.5em;
+  border: silver;
+  border-radius: 5px;
+}
+.form-group {
+  width: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.form-check {
+  margin: 0.1em;
+}
+
+.signupCheckBoxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 40%;
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.submitButton {
+  background-color: #1f2041;
+  width: 80%;
+  height: 3em;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+}
+.submitButton:hover {
+  background-color: #119da4;
+}
+.form-check-input:checked {
+  background-color: #1f2041;
+}
+
+.formIcon {
+  color: #1f2041;
+}

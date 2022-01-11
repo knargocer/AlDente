@@ -1,0 +1,20 @@
+.overallCostLabel {
+  font-size: large;
+  font-weight: bold;
+}
+
+.cartCardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.removeCartIcon {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.removeCartIcon:hover {
+  cursor: pointer;
+}

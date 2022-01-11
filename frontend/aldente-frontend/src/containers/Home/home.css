@@ -1,0 +1,16 @@
+.searchResultsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.notFoundMessage {
+  background: #4b3f72;
+  font-size: large;
+  font-weight: bold;
+  color: #ffff;
+  padding: 2em;
+  margin: 4em;
+  width: fit-content;
+  border-radius: 0.2em;
+}

@@ -1,0 +1,17 @@
+.cartItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cartPageContainer {
+  display: flex;
+  background: #ffc857;
+  padding: 4em;
+  align-self: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0.3em 0.3em 0.3em #b6b0b0;
+}
+.overallCostLabel {
+  width: fit-content;
+}

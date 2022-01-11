@@ -1,0 +1,7 @@
+.cardFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-top: 5em;
+}
